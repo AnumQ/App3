@@ -6,8 +6,10 @@ gem 'rails', '3.2.2'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql'
-gem 'rspec-rails', '2.9.0'
 
+group :development do
+gem 'rspec-rails', '2.9.0'
+end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
