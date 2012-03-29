@@ -1,0 +1,8 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-03-28 19:47:22 +0100
+Served asset /rails.png - 200 OK (232ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-03-28 20:03:33 +0100
+Served asset /rails.png - 304 Not Modified (0ms)
