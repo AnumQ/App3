@@ -86,3 +86,45 @@ ActionController::RoutingError (No route matches [GET] "/services.html"):
 
 Started GET "/assets/rails.png" for 127.0.0.1 at 2012-03-29 10:56:30 +0100
 Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-03-29 13:57:37 +0100
+
+ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+  all/ruby/1.9.1/gems/activerecord-3.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `retrieve_connection'
+  all/ruby/1.9.1/gems/activerecord-3.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:168:in `retrieve_connection'
+  all/ruby/1.9.1/gems/activerecord-3.2.2/lib/active_record/connection_adapters/abstract/connection_specification.rb:142:in `connection'
+  all/ruby/1.9.1/gems/activerecord-3.2.2/lib/active_record/query_cache.rb:67:in `rescue in call'
+  all/ruby/1.9.1/gems/activerecord-3.2.2/lib/active_record/query_cache.rb:61:in `call'
+  all/ruby/1.9.1/gems/activerecord-3.2.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+  all/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  all/ruby/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:405:in `_run__642627314__call__842649226__callbacks'
+  all/ruby/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:405:in `__run_callback'
+  all/ruby/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  all/ruby/1.9.1/gems/activesupport-3.2.2/lib/active_support/callbacks.rb:81:in `run_callbacks'
+  all/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  all/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  all/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  all/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  all/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  all/ruby/1.9.1/gems/railties-3.2.2/lib/rails/rack/logger.rb:26:in `call_app'
+  all/ruby/1.9.1/gems/railties-3.2.2/lib/rails/rack/logger.rb:16:in `call'
+  all/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  all/ruby/1.9.1/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+  all/ruby/1.9.1/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+  all/ruby/1.9.1/gems/activesupport-3.2.2/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  all/ruby/1.9.1/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+  all/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/static.rb:61:in `call'
+  all/ruby/1.9.1/gems/railties-3.2.2/lib/rails/engine.rb:479:in `call'
+  all/ruby/1.9.1/gems/railties-3.2.2/lib/rails/application.rb:220:in `call'
+  all/ruby/1.9.1/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+  all/ruby/1.9.1/gems/railties-3.2.2/lib/rails/rack/log_tailer.rb:14:in `call'
+  all/ruby/1.9.1/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered all/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered all/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (59.0ms)
+  Rendered all/ruby/1.9.1/gems/actionpack-3.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (229.0ms)
