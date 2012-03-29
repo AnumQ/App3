@@ -1,8 +1,290 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ruby on Rails: Welcome aboard</title>
+    <title>Welcome to my site</title>
     <style type="text/css" media="screen">
+    BODY {
+    color: #333333;
+    font-family: verdana;
+    font-size: 11px;
+    margin: 0 !important;
+}
+TD {
+    color: #666666;
+    font-family: Tahoma;
+    font-size: 11px;
+}
+BODY {
+}
+.inputstyle {
+    background-color: white;
+    border-color: #2D4E71;
+    border-right: 1px solid #2D4E71;
+    border-style: solid;
+    border-width: 1px;
+    color: #666666;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 8pt;
+    text-decoration: none;
+}
+.pruple {
+    background: url("purple.jpg") repeat-x scroll 0 0 transparent;
+    width: 100%;
+}
+h1 h2 h3 h4 h5 {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #666667;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.bottomm {
+    color: #AAAAAA;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    text-align: left;
+    text-decoration: none;
+}
+.bottom-links {
+    color: #86A378;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    text-align: left;
+    text-decoration: none;
+}
+.bottom-links a {
+    color: #86A378;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    text-align: left;
+    text-decoration: none;
+}
+.bottom-links *:hover {
+    color: #86A378;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    text-align: left;
+    text-decoration: none;
+}
+.links {
+    color: #666666;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    text-decoration: none;
+}
+.news {
+    color: #49ACA7;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+}
+.links a {
+    color: #666666;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    text-decoration: none;
+}
+.links *:hover {
+    color: #666666;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    text-decoration: underline;
+}
+.botpink {
+    color: #764B62;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    text-decoration: none;
+}
+.botpink a {
+    color: #764B62;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    text-decoration: none;
+}
+.botpink *:hover {
+    color: #764B62;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    text-decoration: underline;
+}
+.botgray {
+    color: #767676;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    text-decoration: none;
+}
+.botgray a {
+    color: #767676;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    text-decoration: none;
+}
+.botgray *:hover {
+    color: #767676;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    text-decoration: underline;
+}
+.black {
+    color: #000000;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: right;
+    text-decoration: underline;
+}
+.botbluee {
+    color: #49ACA7;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    text-decoration: none;
+}
+.botbluee a {
+    color: #49ACA7;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    text-decoration: none;
+}
+.botbluee *:hover {
+    color: #49ACA7;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+    text-decoration: underline;
+}
+.lite-blue {
+    color: #386D89;
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    text-align: left;
+}
+.portfolio_title {
+    color: #3EA9A3;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 37px;
+    width: 150px;
+}
+.portfolio_long {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: inline;
+    font-family: arial;
+    font-size: 11px;
+    line-height: 15px;
+    width: 150px;
+}
+portfolio_long {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: inline;
+    font-family: arial;
+    font-size: 11px;
+    line-height: 15px;
+    width: 150px;
+}
+.portfolio_long P {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: inline;
+    font-family: arial;
+    font-size: 11px;
+    line-height: 15px;
+    width: 150px;
+}
+portfolio_long P {
+    background-color: #000000;
+    color: #FFFFFF;
+    display: inline;
+    font-family: arial;
+    font-size: 11px;
+    line-height: 15px;
+    width: 150px;
+}
+.upperlinks {
+    color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 11px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+upperlinks.a {
+    color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 11px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: underline;
+}
+.upperlinks:hover {
+    color: #48AEB0;
+    font-family: Tahoma;
+    font-size: 11px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+.padthirty {
+    padding-left: 30px;
+}
+.cursor {
+    cursor: pointer;
+}
+.label {
+    color: #434343;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 21px;
+}
+.inputfield {
+    background: url("inputbox.png") no-repeat scroll left top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    height: 43px;
+    padding: 0 20px;
+    vertical-align: middle;
+    width: 140px;
+}
+.textarea {
+    background: url("msgbox.png") no-repeat scroll left top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    height: 163px;
+    padding: 10px 20px;
+    text-align: left;
+    vertical-align: middle;
+    width: 300px;
+}
+.sbmtbtn {
+    background: url("sendbtn.png") no-repeat scroll left top transparent;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 53px;
+    vertical-align: middle;
+    width: 132px;
+}
+
       body {
         margin: 0;
         margin-bottom: 25px;
@@ -186,6 +468,35 @@
     </script>
   </head>
   <body>
+    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td bgcolor="#000000">
+<table width="996" cellspacing="0" cellpadding="0" border="0" align="center">
+<tbody>
+<tr>
+<td height="27" bgcolor="#000000">
+<a class="upperlinks" title="Homepage" href="index.php">Home</a>
+<a class="upperlinks" title="Our Work" href="portfolio-web-design.html">Portfolio</a>
+<a class="upperlinks" title="Web Design Company" href="about61.html">About61</a>
+<a class="upperlinks" title="Web Design Services" href="services.html">Services</a>
+<a class="upperlinks" title="Our Clients" href="client.html">Clients</a>
+<a class="upperlinks" title="Contact" href="contact61.php">Contact61</a>
+<a class="upperlinks" title="Request a quote" href="request-quote-web-design-compay.php">Request a quote</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<tr>
+<tr> </tr>
+<tr>
+<tr>
+<tr>
+</tbody>
+</table>
     <div id="page">
       <div id="sidebar">
         <ul id="sidebar-items">
